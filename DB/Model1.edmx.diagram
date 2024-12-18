@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0fcaadc598f245d9bc4cf2c9851510be" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="FacultySystemModel.Attendance" Width="1.5" PointX="8.25" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacultySystemModel.Cours" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacultySystemModel.Department" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacultySystemModel.Enrollment" Width="1.5" PointX="5.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacultySystemModel.Exam" Width="1.5" PointX="5.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacultySystemModel.Faculty" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacultySystemModel.Grade" Width="1.5" PointX="5.25" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacultySystemModel.Room" Width="1.5" PointX="5.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacultySystemModel.Staff" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacultySystemModel.Student" Width="1.5" PointX="3" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacultySystemModel.Timetable_Management" Width="1.5" PointX="8" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="FacultySystemModel.FK__Attendanc__Cours__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Attendanc__Stude__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Courses__Departm__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Enrollmen__Cours__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Exam__Course_ID__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Grade__Course_ID__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Faculty__Departm__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Staff__F_Departm__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Students__Depart__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Timetable__Depar__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Enrollmen__Stude__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.FK__Grade__Student_I__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="FacultySystemModel.Timetable_Room_Link" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
