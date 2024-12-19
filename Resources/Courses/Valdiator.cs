@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace FacultySystem_3Y_DB.Resources.Courses
 {
-    internal class Repo
+    internal class Valdiator
     {
-
     }
 }

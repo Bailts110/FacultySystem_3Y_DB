@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FacultySystem_3Y_DB.Resources.Courses
+namespace FacultySystem_3Y_DB.Resources.Enrollment
 {
-    internal class Repo
+    internal class Class1
     {
-
     }
 }

@@ -114,6 +114,7 @@
     <Compile Include="Resources\Courses\AddCourse.Designer.cs">
       <DependentUpon>AddCourse.cs</DependentUpon>
     </Compile>
+    <Compile Include="Resources\Courses\Valdiator.cs" />
     <Compile Include="Resources\Courses\Controller.cs" />
     <Compile Include="Resources\Courses\Repo.cs" />
     <Compile Include="Resources\Enrollment\Controller.cs" />
@@ -124,6 +125,7 @@
       <DependentUpon>Enrollment.cs</DependentUpon>
     </Compile>
     <Compile Include="Resources\Enrollment\Repo.cs" />
+    <Compile Include="Resources\Enrollment\Valdiator.cs" />
     <Compile Include="Resources\Grade\AddGrade.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +134,7 @@
     </Compile>
     <Compile Include="Resources\Grade\Controller.cs" />
     <Compile Include="Resources\Grade\Repo.cs" />
+    <Compile Include="Resources\Grade\Valdiator.cs" />
     <Compile Include="Resources\Student\Controller.cs" />
     <Compile Include="Resources\Student\login.cs">
       <SubType>Form</SubType>
@@ -140,6 +143,8 @@
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="Resources\Student\Repo.cs" />
+    <Compile Include="Resources\Student\Valdiator.cs" />
+    <Compile Include="utils\ErrorHandler.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -187,6 +192,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Attendace\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
